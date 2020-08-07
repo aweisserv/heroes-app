@@ -1,7 +1,7 @@
 <h1>Héroe <small>Nombre del Héroe</small></h1>
 <hr>
 
-<div class="row text-right">
+<div class="row text-left">
     <div class="col">
         <button routerLink="/Heroes"
                 class="btn btn-danger">
@@ -17,7 +17,7 @@
         <form (ngSubmit)="guardar( f )"
               #f="ngForm">
 
-            <div class="form-group">
+            <div class="form-group mt-5">
 
                 <label>Firebase ID</label>
                 <input type="text"
@@ -74,9 +74,9 @@
 
 
             <hr>
-            <div class="form-group text-center">
+            <div class="form-group text-right">
                 <button type="submit"
-                        class="btn btn-primary w-25">
+                        class="btn btn-dark btn-block">
                     <i class="fa fa-save"></i>
                         Guardar
                 </button>
