@@ -15,7 +15,7 @@
   - Creada con Angular 9.1.4.
   - Backend con Firebase.
   - Uso del módulo HTTP.
-  -	Uso de ervicios restful de Firebase
+  -	Uso de servicios RESTful de Firebase
   -	POST.
   -	GET.
   -	DELETE.
@@ -37,7 +37,7 @@
 
 ## QuickStart
 
-- Clone the repo
+- Clone the repository
 - Install node package manager (npm)
 - Install Angular > npm install -g @angular/cli
 - Navigate with terminal to the cloned project folder 
