@@ -1,4 +1,4 @@
-<h1>Listado de Héroes</h1>
+<h1>Datos test</h1>
 <hr>
 
 <div class="row">
@@ -17,15 +17,17 @@
   <thead class="thead-dark">
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Poder</th>
-      <th scope="col">Vivo</th>
+      <th scope="col">ID</th>
+      <th scope="col">Título</th>
+      <th scope="col">Dirección</th>
+      <th scope="col">Tipo visita</th>
       <th scope="col">Herramientas</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let heroe of heroes; let i = index">
       <th scope="row">{{ i + 1 }}</th>
+      <td> </td>
       <td>{{ heroe.nombre }}</td>
       <td>{{ heroe.poder }}</td>
       <td>
