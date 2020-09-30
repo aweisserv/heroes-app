@@ -3,8 +3,8 @@
 
 <div class="row">
     <div class="col text-right">
-        <button routerLink="/heroe/nuevo"
-                class="btn btn-primary">
+        <button routerLink="/visita/nuevo"
+                class="btn btn-outline-success">
             <i class="fa fa-plus"></i>
             Agregar
         </button>
@@ -38,12 +38,12 @@
       </td>
       <td>
 
-        <button class="btn btn-info mr-1"
+        <button class="btn mr-1" style="color:darkslategrey;"
                  [routerLink]="[ '/heroe', heroe.id ]">
           <i class="fa fa-pen"></i>
         </button>
 
-        <button class="btn btn-danger"
+        <button class="btn" style="color:darkgrey;"
                 (click)="borrarHeroe( heroe, i )">
           <i class="fa fa-trash"></i>
         </button>

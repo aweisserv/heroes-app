@@ -5,10 +5,10 @@ import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  templateUrl: './visitas.component.html',
+  styleUrls: ['./visitas.component.css']
 })
-export class HeroesComponent implements OnInit {
+export class VisitasComponent implements OnInit {
 
   heroes: HeroeModel[] = [];
   cargando = false;

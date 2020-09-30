@@ -11,10 +11,10 @@ import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-heroe',
-  templateUrl: './heroe.component.html',
-  styleUrls: ['./heroe.component.css']
+  templateUrl: './visita.component.html',
+  styleUrls: ['./visita.component.css']
 })
-export class HeroeComponent implements OnInit {
+export class VisitaComponent implements OnInit {
 
   heroe = new HeroeModel();
 

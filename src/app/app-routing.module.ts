@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 
 import { Routes, RouterModule } from '@angular/router';
-import { HeroesComponent } from './pages/heroes/heroes.component';
-import { HeroeComponent } from './pages/heroe/heroe.component';
+import { VisitasComponent } from './pages/visitas/visitas.component';
+import { VisitaComponent } from './pages/visita/visita.component';
 
 
 
 const routes: Routes = [
-  { path: 'heroes', component: HeroesComponent },
-  { path: 'heroe/:id', component: HeroeComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'heroes' }
+  { path: 'visitas', component: VisitasComponent },
+  { path: 'visita/:id', component: VisitaComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'visitas' }
 ];
 
 
